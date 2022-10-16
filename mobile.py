@@ -23,7 +23,7 @@ mobile_data = {
 # print(type(total_usd))
 
 # bdt = total_usd * total_rate
-# print(bdt)
+
 
 for mobile in mobile_data['data']:
     name_1 = mobile.get('name')
