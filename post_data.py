@@ -38,12 +38,18 @@ post_data = [
 
 # Your Code Start from here
 # print(post_data[0].get("userId"))
-# post_data[0]['slug']="sunt-aut-facere-repellat-provident"
-# print(post_data[0])
+post_data[0]['slug']="sunt-aut-facere"
+post_data[1]['slug']="qui-est-esse"
+post_data[2]['slug']="ea-molestias-quasi"
+post_data[3]['slug']="eum-et-est"
+post_data[4]['slug']="nesciunt-quas-odio"
+post_data[5]['slug']="dolorem-eum-magni"
 
-for new_data in post_data:
-    new_data['slug'] = "sunt-aut-facere-repellat-provident"
-    print(new_data)
+print(post_data[4])
+
+# for new_data in post_data:
+#     new_data['slug'] = "title"
+#     print(new_data)
 
 
 
